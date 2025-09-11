@@ -35,7 +35,7 @@ def chat():
     print("Say 'quit' to exit.")
     while True:
         user_input = listen()
-        if user_input.lower() == "shut the fuck up":
+        if user_input.lower() == "quit":
             speak("Goodbye!")
             break
         if user_input:
