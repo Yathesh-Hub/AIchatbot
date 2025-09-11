@@ -6,7 +6,7 @@ from google.generativeai.generative_models import GenerativeModel
 import pyaudio
 
 # Configure Gemini API
-configure(api_key="AIzaSyCTRxylDWPb5X3oGXUkIYamufMfatRVzus")
+configure(api_key="Gemini API Key")
 model = GenerativeModel("gemini-1.5-flash")
 # Initialize speech recognition and text-to-speech
 recognizer = sr.Recognizer()
