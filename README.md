@@ -20,7 +20,7 @@ The bot listens to your voice, sends the text to Gemini, and speaks the response
 
 🔊 Voice Output – Speaks back using text-to-speech (pyttsx3).
 
-🛑 Exit Command – Say "shut the fuck up" to stop the bot.
+🛑 Exit Command – Say "Quit!" to stop the bot.
 
 MIT License
 
