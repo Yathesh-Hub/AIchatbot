@@ -1,45 +1,39 @@
-🎙️ AI Voice Chatbot with Gemini API
+# 🎙️ AI Voice Chatbot with Gemini API
 
-This is a simple voice-based AI chatbot built using:
+This project was **entirely created with AI assistance** using generative tools (like ChatGPT and Gemini).  
+It demonstrates how to build a **voice-based chatbot** that listens, understands, and speaks back using Google’s Gemini API.
 
-Google Gemini API (Generative AI responses)
+---
 
-SpeechRecognition (speech-to-text)
+## 🚀 Features
+- 🎤 **Voice Input** – Speak naturally, and the bot listens and transcribes your speech using SpeechRecognition.  
+- 🤖 **Gemini Integration** – Generates smart and conversational responses with Google’s Gemini API.  
+- 🔊 **Voice Output** – Speaks back responses using pyttsx3 text-to-speech.  
+- 🛑 **Exit Command** – Say `"Quit!"` to stop the conversation gracefully.
 
-PyAudio (microphone input)
+---
 
-pyttsx3 (text-to-speech output)
+## 🧠 How It Works
+1. Listens through your microphone (via PyAudio).  
+2. Converts speech to text (SpeechRecognition).  
+3. Sends the text prompt to **Gemini API** for response.  
+4. Uses **pyttsx3** to speak the reply aloud.  
 
-The bot listens to your voice, sends the text to Gemini, and speaks the response back.
+---
 
-🚀 Features
+## 🛠️ Tech Stack
+- Python  
+- Google Gemini API  
+- SpeechRecognition  
+- PyAudio  
+- pyttsx3  
 
-🎤 Voice Input – Speak naturally, the bot listens and transcribes your speech.
+---
 
-🤖 Gemini Integration – Uses Google’s Gemini API for smart responses.
+## 💡 About
+This project was **generated and refined using AI tools** to explore how large language models can assist in building working prototypes for voice-based applications.
 
-🔊 Voice Output – Speaks back using text-to-speech (pyttsx3).
+---
 
-🛑 Exit Command – Say "Quit!" to stop the bot.
-
-MIT License
-
-Copyright (c) 2025 Yathesh-Hub
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 📄 License
+Open-source under the MIT License.
